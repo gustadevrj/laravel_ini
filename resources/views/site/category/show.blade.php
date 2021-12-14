@@ -1,0 +1,1 @@
+<b>PAGINA DA CATREGORIA:</b> {{$slug}}
