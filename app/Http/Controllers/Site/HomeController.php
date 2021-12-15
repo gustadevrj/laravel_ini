@@ -14,15 +14,23 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function __invoke(Request $request)
-    {echo("INVOKE!!! - ");
+    {
         //
 		return view("site.home.index");
     }
 
+	/*
 	public function index(Request $request)
-    {echo("INDEX!!! - ");
+    {
         //
-		return view("site.home.index");
+		//return view("site.home.index");
     }
+	*/
 
 }
+
+
+
+
+
+
